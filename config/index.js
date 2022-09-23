@@ -39,7 +39,7 @@ export const USER_CONFIG = {
     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "09-21"},
+    {"type": "节日", "小璐": "被搭讪纪念日", "year": "2022", "date": "09-21"},
   ],
    * 限制重要节日的展示条目, 需要填写数字;3
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -50,30 +50,8 @@ export const USER_CONFIG = {
   /** 日期相关 */
   
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-21"},
-  
-      
-    /** 每日N句 */
-    // 金山每日一句
-    CIBA: true,
-    // 每日一言
-    oneTalk: false,
-    // 土味情话(彩虹屁)
-    earthyLoveWords: false,
-    // 朋友圈文案
-    momentCopyrighting: false,
-    // 毒鸡汤
-    poisonChickenSoup: false,
-    // 古诗古文
-    poetry: false,
+    {"keyword": "love_day", date: "2022-09-21"},、
     
-    /** 星座运势 */
-    horoscope: false,
-    
-    /** 生日消息和节日消息 */
-    birthdayMessage: true,
-  },
-  
     // ...
   ],
   
